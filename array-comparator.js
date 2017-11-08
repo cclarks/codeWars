@@ -3,17 +3,20 @@
 //
 // -------------------------------------------------------------------------------
 
-function matchArrays(v,r)
+function matchArrays( v , r )
 {
-    var i=0;
-    var count=0;
-    while(i<v.length)
+    let i = 0;
+    let count = 0;
+    while ( i < v.length )
     {
-        if(r.indexOf(v[i])!==-1)
+      if ( r.indexOf(v[i])!== -1 )
         {
-            count++;
+          count++;
         }
-        i++;
+      i++;
     }
-    return count;
+  return count;
 }
+
+
+// changes
