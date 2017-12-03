@@ -12,3 +12,10 @@ function textin(str){
   var patt = /(too|two|to)/gi;
   return str.replace(patt, "2");
 }
+
+textin = (str) => {
+  console.log(str)
+  var pattern = /(too|two|to)/gi
+
+  return str.replace(pattern, "2")
+}

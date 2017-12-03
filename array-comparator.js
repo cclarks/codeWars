@@ -5,8 +5,8 @@
 
 function matchArrays( v , r )
 {
-    let i = 0;
-    let count = 0;
+    var i = 0;
+    var count = 0;
     while ( i < v.length )
     {
       if ( r.indexOf(v[i])!== -1 )
